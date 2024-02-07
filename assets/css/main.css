@@ -1,0 +1,63 @@
+.Creative {
+  background-color: #f2f2f2;
+}
+.Creative .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Creative .container .box:first-child .agency {
+  display: inline-flex;
+  column-gap: 3px;
+}
+.Creative .container .box:first-child .agency .line {
+  border-left: 3px solid var(--Cinnabar);
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+
+.Creative .container .box:first-child .agency .text {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.Creative .container .box:first-child .title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 84px;
+}
+
+.Creative .container .box:first-child .title .mind {
+    color:var(--Cinnabar);
+}
+
+.Creative .container .box:first-child .last-text {
+    color: #7B7D84;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.Creative .container .box:first-child .btn-flex {
+    background-color: #EA3D3C;
+  display: flex;
+  column-gap: 18px;
+  width: 187px;
+
+
+}
+.Creative .container .box:first-child .btn-Cinnabar {
+color: var(--Cinnabar);
+color: #fff;
+height: 58px;
+padding: 16px;
+
+
+/* Hug (186px) */
+
+}
+
+.Creative .container .box:last-child {
+  padding-top: 50px;
+}
