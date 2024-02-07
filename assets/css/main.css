@@ -1,12 +1,17 @@
 .Creative {
   background-color: #f2f2f2;
+  position: relative;
 }
 .Creative .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.Creative .container .box:first-child {
+  padding-right: 104px;
 
+  position: relative;
+}
 .Creative .container .box:first-child .agency {
   display: inline-flex;
   column-gap: 3px;
@@ -21,43 +26,68 @@
   font-size: 25px;
   font-weight: 400;
   line-height: 34px;
+  padding-bottom: 5px;
 }
 
 .Creative .container .box:first-child .title {
-    font-weight: 700;
-    font-size: 62px;
-    line-height: 84px;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 84px;
+  padding-bottom: 20px;
 }
 
 .Creative .container .box:first-child .title .mind {
-    color:var(--Cinnabar);
+  color: var(--Cinnabar);
 }
 
 .Creative .container .box:first-child .last-text {
-    color: #7B7D84;
-    line-height: 30px;
-    font-weight: 400;
-    font-size: 18px;
+  color: #7b7d84;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 30px;
+  padding-right: 100px;
 }
-.Creative .container .box:first-child .btn-flex {
-    background-color: #EA3D3C;
+.Creative .container .box:first-child .btn-container {
+  background-color: #ea3d3c;
   display: flex;
-  column-gap: 18px;
   width: 187px;
-
-
 }
 .Creative .container .box:first-child .btn-Cinnabar {
-color: var(--Cinnabar);
-color: #fff;
-height: 58px;
-padding: 16px;
-
-
-/* Hug (186px) */
-
+  color: var(--Cinnabar);
+  color: #fff;
+  height: 58px;
+  padding: 16px 18px 16px 32px;
+  background-color: #ea3d3c;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .Creative .container .box:last-child {
   padding-top: 50px;
+  position: relative;
+}
+
+.Creative .points-left {
+  top: 47px;
+}
+
+.Creative .points-right {
+  bottom: 47px;
+  right: 0px;
+}
+
+.Creative .container .box:last-child .figur1 {
+  top: 194px;
+  right: 74px;
+}
+
+.Creative .container .box:last-child .figur2 {
+  bottom: 34px;
+  left: -80px;
+}
+
+.Creative .container .box:first-child .figur3 {
+  top: 150px;
+  right: 140px;
 }
