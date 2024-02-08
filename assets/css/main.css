@@ -1,6 +1,7 @@
 .Creative {
   background-color: #f2f2f2;
   position: relative;
+  margin-bottom: 107px;
 }
 .Creative .container {
   display: flex;
@@ -19,7 +20,7 @@
 .Creative .container .box:first-child .agency .line {
   border-left: 3px solid var(--Cinnabar);
   margin-top: 8px;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
 }
 
 .Creative .container .box:first-child .agency .text {
@@ -52,6 +53,8 @@
   background-color: #ea3d3c;
   display: flex;
   width: 187px;
+  cursor: pointer;
+
 }
 .Creative .container .box:first-child .btn-Cinnabar {
   color: var(--Cinnabar);
@@ -61,11 +64,17 @@
   background-color: #ea3d3c;
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
+
 }
 
 .Creative .container .box:last-child {
   padding-top: 50px;
   position: relative;
+}
+
+.Creative .container .box:last-child .personal-img {
+  margin-top: 5px;
 }
 
 .Creative .points-left {
@@ -90,4 +99,146 @@
 .Creative .container .box:first-child .figur3 {
   top: 150px;
   right: 140px;
+}
+
+/* ///////////////////////////////// */
+
+.explore .container {
+  width: 1100px;
+  margin-bottom: 190px;
+}
+
+
+
+.explore .container .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 104px;
+}
+
+.explore .container .grid-container .box figure {
+  background-color: rgba(234, 61, 60, 0.3);
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: relative;
+  margin: 47px;
+}
+
+.explore .container .grid-container .box img {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 57px;
+  height: 57px;
+}
+
+.explore .container .grid-container .box .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  color: rgba(37, 55, 63, 1);
+  padding-bottom: 8px;
+}
+
+.explore .container .grid-container .box .text {
+  color: rgba(37, 55, 63, 1);
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.About {
+  margin-bottom: 140px;
+}
+
+.About .container {
+  display: flex;
+  column-gap: 122px;
+}
+
+.About .container .box:first-child .img-about {
+  border-radius: 20px;
+  width: 570px;
+  height: 570px;
+}
+
+.About .container .box:first-child .card {
+  position: absolute;
+  width: 303px;
+  height: 225px;
+  background-color: var(--Cinnabar);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -2px;
+  line-height: 77px;
+  padding: 36px 50px;
+  bottom: -30px;
+  right: -35px;
+  
+}
+
+.About .container .box:first-child .card .card-flex {
+  display: inline-flex;
+}
+
+.About .container .box:first-child .card .card-flex .number {
+  font-size: 70px;
+  font-weight: 400;
+
+}
+
+.About .container .box:first-child .card .card-flex .rounded-wihte {
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border-radius: 50%;
+     margin: 28px 0px 0px 11px;
+}
+
+.About .container .box:first-child .card .card-flex .vector-top {
+    padding: 11px;
+    margin-bottom: 5px;
+}
+
+.About .container .box:first-child .card .text {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.About .container .box:last-child {
+    margin-top: 68px;
+
+}
+.About .container .box:last-child span {
+padding-bottom: 20px;
+color: rgba(51, 51, 51, 0.5);
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.About .container .box:last-child .title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    padding-bottom: 28px;
+    padding-right: 10px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.About .container .box:last-child .text {
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 31px;
+    color: rgba(51, 51, 51, 0.5);
+    padding-right: 40px;
+}
+
+.About .container .box:last-child a {
+    color:  rgba(51, 51, 51, 1);
+    font-weight: 400;
+    line-height: 32px;
 }
