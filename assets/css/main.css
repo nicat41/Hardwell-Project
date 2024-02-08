@@ -99,8 +99,6 @@
   right: 140px;
 }
 
-/* ///////////////////////////////// */
-
 .explore .container {
   width: 1100px;
   margin-bottom: 190px;
@@ -236,7 +234,7 @@
   line-height: 32px;
 }
 .Discover {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 .Discover .subtitle {
   padding: 0px 35% 75px 35%;
@@ -277,4 +275,66 @@
 .Discover .card-flex .container .box:last-child figure {
   width: 433px;
   height: 320px;
+}
+
+.create .card-flex {
+  display: flex;
+  column-gap: 38px;
+  margin-bottom: 138px;
+}
+
+.create .card-flex .imges-cards {
+  width: 575px;
+  height: 472px;
+  border: solid 6px #ffffff;
+  box-shadow: -3px 24px 40px 9px #ea3d3c2b;
+}
+
+.create .cards-flex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  margin-bottom: 142px;
+}
+.create .cards-flex .box {
+  border: 1px solid #dddddd;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.create .cards-flex .box .title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.create .cards-flex .box .title span {
+  font-size: 40px;
+  width: 26px;
+  height: 48px;
+}
+.create .cards-flex .box .title .Pilus {
+  bottom: 20px;
+  position: absolute;
+}
+
+.create .cards-flex .box .text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.create .cards-flex .box:first-child {
+  color: #9cd161;
+  padding: 59px 0px;
+}
+
+.create .cards-flex .box:nth-child(2) {
+  color: #f5ad0d;
+  padding: 59px 0px;
+}
+
+.create .cards-flex .box:last-child {
+  color: #fb690c;
+  padding: 59px 0px;
 }
