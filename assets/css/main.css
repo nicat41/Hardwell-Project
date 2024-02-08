@@ -54,7 +54,6 @@
   display: flex;
   width: 187px;
   cursor: pointer;
-
 }
 .Creative .container .box:first-child .btn-Cinnabar {
   color: var(--Cinnabar);
@@ -65,7 +64,6 @@
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
-
 }
 
 .Creative .container .box:last-child {
@@ -107,8 +105,6 @@
   width: 1100px;
   margin-bottom: 190px;
 }
-
-
 
 .explore .container .grid-container {
   display: grid;
@@ -175,7 +171,6 @@
   padding: 36px 50px;
   bottom: -30px;
   right: -35px;
-  
 }
 
 .About .container .box:first-child .card .card-flex {
@@ -185,60 +180,101 @@
 .About .container .box:first-child .card .card-flex .number {
   font-size: 70px;
   font-weight: 400;
-
 }
 
 .About .container .box:first-child .card .card-flex .rounded-wihte {
-    width: 38px;
-    height: 38px;
-    background-color: #fff;
-    border-radius: 50%;
-     margin: 28px 0px 0px 11px;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 28px 0px 0px 11px;
 }
 
 .About .container .box:first-child .card .card-flex .vector-top {
-    padding: 11px;
-    margin-bottom: 5px;
+  padding: 11px;
+  margin-bottom: 5px;
 }
 
 .About .container .box:first-child .card .text {
-    line-height: 40px;
-    font-size: 24px;
-    font-weight: 400;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 400;
 }
 .About .container .box:last-child {
-    margin-top: 68px;
-
+  margin-top: 68px;
 }
 .About .container .box:last-child span {
-padding-bottom: 20px;
-color: rgba(51, 51, 51, 0.5);
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 3px;
-text-transform: uppercase;
+  padding-bottom: 20px;
+  color: rgba(51, 51, 51, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .About .container .box:last-child .title {
-    margin-top: 20px;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 64px;
-    padding-bottom: 28px;
-    padding-right: 10px;
-    color: rgba(51, 51, 51, 1);
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  padding-bottom: 28px;
+  padding-right: 10px;
+  color: rgba(51, 51, 51, 1);
 }
 
 .About .container .box:last-child .text {
-    font-weight: 400;
-    line-height: 32px;
-    padding-bottom: 31px;
-    color: rgba(51, 51, 51, 0.5);
-    padding-right: 40px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 31px;
+  color: rgba(51, 51, 51, 0.5);
+  padding-right: 40px;
 }
 
 .About .container .box:last-child a {
-    color:  rgba(51, 51, 51, 1);
-    font-weight: 400;
-    line-height: 32px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 400;
+  line-height: 32px;
+}
+.Discover {
+    margin-bottom: 120px;
+}
+.Discover .subtitle {
+  padding: 0px 35% 75px 35%;
+}
+
+.Discover .card-flex {
+  padding: 68px 0px;
+  background-color: rgba(234, 61, 60, 1);
+}
+.Discover .card-flex .container {
+  display: flex;
+  width: 950px;
+}
+.Discover .card-flex .container .box:first-child {
+  color: #fff;
+  padding-top: 47px;
+  padding-right: 90px;
+}
+
+.Discover .card-flex .container .box:first-child span {
+  padding-bottom: 17px;
+  font-weight: 400px;
+}
+
+.Discover .card-flex .container .box:first-child .title {
+  padding: 17px 80px 15px 0px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.Discover .card-flex .container .box:first-child .text {
+  font-weight: 400;
+  line-height: 32px;
+  padding-right: 60px;
+}
+
+.Discover .card-flex .container .box:last-child figure {
+  width: 433px;
+  height: 320px;
 }
