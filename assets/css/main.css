@@ -417,3 +417,38 @@
   line-height: 32px;
   width: 470px;
 }
+
+/* ////////////////////// */
+.Team {
+    margin-bottom: 190px;
+}
+.Team .subtitle {
+    padding: 0px 360px 70px 360px;
+}
+
+
+.Team .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 28px;
+}
+
+.Team .grid-container figure {
+    width: 270px;
+    height: 224px;
+    margin-bottom: 25px;
+}
+.Team .grid-container img {
+    border-radius: 10px;
+}
+
+.Team .grid-container .name {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 8px;
+    color: #333333;
+}
+.Team .grid-container .position {
+font-weight: 400;
+color: #333333;
+}
