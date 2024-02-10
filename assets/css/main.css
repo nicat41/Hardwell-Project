@@ -400,6 +400,10 @@
   position: relative;
   bottom: 247px;
 }
+
+.youtube .container .iframe  .iframe-link {
+  border-radius: 10px;
+}
 .youtube .container .content {
   position: relative;
   bottom: 100px;
