@@ -522,3 +522,68 @@
   align-items: center;
   column-gap: 54px;
 }
+
+.Blog  {
+    margin-bottom: 90px;
+}
+.Blog .container .top-title {
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 78px;
+}
+
+.Blog .container .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.Blog .container .grid-container .box {
+    border: 1px solid #0000001F;
+    border-radius: 14px;
+}
+
+.Blog .container .grid-container .box .end-block {
+    padding: 22px 37px 25px 28px;
+    
+}
+.Blog .container .grid-container .box img {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.Blog .container .grid-container .box .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.66px;
+    padding-bottom: 21px;
+}
+
+.Blog .container .grid-container .box .text {
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #81838C;
+    padding-bottom: 27px;
+}
+
+.Blog .container .grid-container .box .link {
+    letter-spacing: -0.53px;
+    font-weight: 700;
+    line-height: 20.83px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.Blog .container .grid-container .box .yellow {
+    color: #F5AD0D;
+}
+
+.Blog .container .grid-container .box .green {
+    color: #AADF39;
+}
+
+.Blog .container .grid-container .box .red {
+    color: #FB690C;
+}
