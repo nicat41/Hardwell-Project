@@ -418,37 +418,91 @@
   width: 470px;
 }
 
-/* ////////////////////// */
 .Team {
-    margin-bottom: 190px;
+  margin-bottom: 190px;
 }
 .Team .subtitle {
-    padding: 0px 360px 70px 360px;
+  padding: 0px 360px 70px 360px;
 }
 
-
 .Team .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 28px;
 }
 
 .Team .grid-container figure {
-    width: 270px;
-    height: 224px;
-    margin-bottom: 25px;
+  width: 270px;
+  height: 224px;
+  margin-bottom: 25px;
 }
 .Team .grid-container img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .Team .grid-container .name {
-    font-weight: 700;
-    font-size: 24px;
-    padding-bottom: 8px;
-    color: #333333;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 8px;
+  color: #333333;
 }
 .Team .grid-container .position {
-font-weight: 400;
-color: #333333;
+  font-weight: 400;
+  color: #333333;
+}
+
+.Testimonials {
+  margin-bottom: 140px;
+}
+
+.Testimonials .subtitle {
+  padding-bottom: 48px;
+}
+
+.Testimonials .container .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+}
+
+.Testimonials .container .grid-container .box {
+  padding: 53px 26px;
+  border: solid 1px #e0dada;
+  border-radius: 10px;
+}
+
+.Testimonials .container .grid-container .box .text {
+  color: #69697b;
+  line-height: 33px;
+  font-weight: 400;
+  padding-bottom: 29px;
+}
+
+.Testimonials .container .grid-container .box .position-flex {
+  display: flex;
+  column-gap: 21px;
+  align-items: center;
+}
+
+.Testimonials .container .grid-container .box .position-flex .name {
+  color: #2e2e46;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.Testimonials .container .grid-container .box .position-flex .position {
+  color: #69697b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.Testimonials .container .grid-container .box .position-flex .figure {
+  width: 58px;
+  height: 58px;
+}
+
+.Testimonials .container .grid-container .box .position-flex img {
+  border-radius: 50%;
 }
