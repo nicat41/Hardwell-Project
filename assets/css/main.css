@@ -506,3 +506,19 @@
 .Testimonials .container .grid-container .box .position-flex img {
   border-radius: 50%;
 }
+
+.Clients {
+  margin-bottom: 164px;
+}
+.Clients .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+.Clients .card-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 54px;
+}
