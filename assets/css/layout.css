@@ -28,3 +28,80 @@
   background-color: var(--Bunker);
   cursor: pointer;
 }
+
+.footer {
+  background-color: #111111;
+  padding: 65px 0px;
+}
+
+.footer .container .card-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 115px;
+}
+.footer .container .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.footer .container .card-flex .nav .title {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 3px;
+  line-height: 32px;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.footer .container .card-flex .nav a {
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+
+.footer .container .card-flex .navbar {
+  display: block;
+}
+
+.footer .container .card-flex .media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  text-align: center;
+}
+.footer .container .card-flex .media .media-link {
+  width: 48px;
+  width: 48px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+}
+
+.footer .container .card-flex .media .media-link .fa-brands {
+  width: 16px;
+  height: 16px;
+  color: #fff;
+}
+
+.footer .container .All {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container .All .Use-flex {
+  display: flex;
+  column-gap: 52px;
+}
+
+.footer .container .All p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+.footer .container .All .Use-flex span {
+  color: #fff;
+  font-weight: 400;
+}
